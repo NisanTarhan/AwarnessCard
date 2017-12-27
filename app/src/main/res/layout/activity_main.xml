@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.awarnesscard.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewHeight"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        android:text="@string/Text1"
+    />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewHeight"
+        android:layout_weight="3"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/dyslexiahelp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewHeight"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        android:text="@string/Text2"/>
+
+</LinearLayout>
